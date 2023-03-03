@@ -1,65 +1,65 @@
-const logotext = "JOHN";
+const logotext = "Curtlen Aumiller";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Curtlen Aumiller",
+    description: "I’m Curtlen Aumiller Software Engineer _ Full stack devloper, looking for work in Denver, CO",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Curtlen Aumiller",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I started coding in February 2022",
+        second: "Sense then, I have graduated from General Assembly's Software Engineering Immersive Bootcamp",
+        third: "Now I am hooked on coding...",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://live.staticflickr.com/65535/52719281578_6ea7958e1e_b.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "As a Software Engineer with a background in construction, I bring a unique set of skills to my work. My coachable attitude, collaborative work experience, attention to detail, and strong time management skills are essential in both industries. I apply these qualities to deliver high-quality code, drawing on my experience in construction to approach coding with precision and care. For example, my attention to detail helps me catch bugs and errors, resulting in more reliable and stable software. Additionally, my experience in construction has taught me the importance of planning and collaboration, which I apply in my work to ensure timely delivery of projects that meet or exceed customer expectations.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "General Assembly SEI Graduate",
+        where: "Online",
+        date: "Nov 2022 - Feb 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Carpenter",
+        where: "Arvada",
+        date: "Aug 2019 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Superintendant",
+        where: "North Denver",
+        date: "Nov 2021 - Nov 2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "JavaScript",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "React",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "MERN Stack",
+        value: 70,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Python",
+        value: 50,
     },
     {
-        name: "Jquery",
+        name: "HTMl & CSS",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Full Stack Development",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
@@ -73,71 +73,30 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img:"https://live.staticflickr.com/65535/52719281578_6ea7958e1e_b.jpg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img:"https://live.staticflickr.com/65535/52718770421_90b9e9979e_h.jpg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://live.staticflickr.com/65535/52719261158_88ed74def2_h.jpg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
     {
         img: "https://picsum.photos/400/600/?grayscale",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "curtlen88@gmail.com",
+    YOUR_FONE: "(303)549-0612",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -147,10 +106,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/curtlen88",
+    facebook: "https://www.facebook.com/curtlen.aumiller",
+    linkedin: "https://www.linkedin.com/in/ctase/",
 };
 export {
     meta,

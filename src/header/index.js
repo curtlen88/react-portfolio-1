@@ -13,6 +13,21 @@ const Headermain = () => {
     document.body.classList.toggle("ovhidden");
   };
 
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Curtlen Aumiller - Resume.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Curtlen Aumiller - Resume.pdf';
+            alink.click();
+        })
+    })
+}
+
   return (
     <>
       <header className="fixed-top site__header">
@@ -44,7 +59,10 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <Link onClick={handleToggle} to="/contact" className="my-3">Contact</Link>
+                  </li>
+                  <li className="menu_item">
+                  <Link onClick={onButtonClick} className="my-3">Resume</Link>
                   </li>
                 </ul>
               </div>
