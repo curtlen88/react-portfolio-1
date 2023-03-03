@@ -8,11 +8,11 @@ const introdata = {
     title: "I’m Curtlen Aumiller",
     animated: {
         first: "I started coding in February 2022",
-        second: "Sense then, I have graduated from General Assembly's Software Engineering Immersive Bootcamp",
+        second: "Since then, I have graduated from General Assembly's Software Engineering Immersive Bootcamp",
         third: "Now I am hooked on coding...",
     },
     description: "Software Engineer, new father, dog and nature lover, with a background in the construction industry. I am a hard worker, a fast learner, and a team player. I am looking for a position where I can use my skills to help a company grow and succeed.",
-    your_img_url: "https://live.staticflickr.com/65535/52719281578_6ea7958e1e_b.jpg",
+    your_img_url: "https://live.staticflickr.com/65535/52724258173_6f62d439f1_b.jpg",
 };
 
 const dataabout = {
@@ -127,3 +127,5 @@ export {
     socialprofils,
     logotext,
 };
+
+
